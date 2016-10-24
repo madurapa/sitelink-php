@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer, .push {
+    height: 100px; /* .push must be the same height as .footer */
+}
+
+.footer .text-muted {
+    padding-top: 50px;
+}
+
+.steps {
+    padding-left: 0;
+    list-style: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    margin: 30px auto;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.steps strong {
+    font-size: 14px;
+    display: block;
+    line-height: 1.4;
+}
+
+.steps > li {
+    position: relative;
+    display: block;
+    padding: 12px 50px 8px 50px;
+    width: 25%;
+    height: 59px;
+}
+
+.panel-info, .panel-rating, .panel-more1 {
+    float: left;
+    margin: 0 10px;
+}
+
+.title-site {
+    margin-top: 20px;
+}
+
+.btn-site {
+    margin-top: 12px;
+}
+
+.btn-filter > h1 {
+    margin-top: 10px !important;
+}
+
+#mprDetailDataTable h2 {
+    margin-top: 10px;
+}
+
+#mprDetailDataTable tbody > tr > td > span {
+    line-height: 52px;
+}
+
+#mprDetailDataTable .btn {
+    margin-top: 10px;
+}
+
+.future a, .future a:visited, .future a:active {
+    color: #777;
+}
+
+.future a:hover, .future a:visited, .future a:active, .future a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+.sub-title h3 {
+    margin-top: 5px !important;
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.info-label {
+    font-weight: 400;
+    padding: 0 !important;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.title-info {
+    min-height: 100px;
+}
+
+.bs-example-bg-classes p {
+    padding: 15px;
+}
+
+.space-room {
+    max-width: 100px;
+}
+
+.datepicker-inline {
+    width: 100%;
+}
+
+.datepicker table {
+    width: 100%;
+}
+
+.datepicker table > thead > tr > th {
+    height: 90px;
+    font-size: 18px;
+}
+
+.datepicker table > tbody > tr > td {
+    height: 90px;
+}
+
+.input-group-addon-alt {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.input-number {
+    width: 25px !important;
+    height: 22px;
+    padding: 0;
+}
+
+#sc-wrap .form-group {
+    margin-bottom: 10px !important;
+}
+
+.btn:focus {
+    border-color: #CCC;
+    outline: none !important;
+}
+
+#sc-wrap label {
+    font-weight: 400 !important;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+#sc-wrap .panel-body {
+    min-height: 200px;
+}
+
+#sc-size {
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.modal-header {
+    border: none;
+}
+
+.panel {
+    margin-bottom: 0;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 20px;
+    }
+
+    .steps > li {
+        display: block;
+        float: left;
+        height: auto;
+        padding: 5px;
+        position: relative;
+        width: 33%;
+    }
+
+    .mobile-text {
+        text-align: left !important;
+    }
+
+    h1 {
+        font-size: 16px !important;
+    }
+
+    .steps .past {
+        color: #666;
+        background: #ececec;
+    }
+
+    .steps .present {
+        color: #000;
+        background: #AAAAAA;
+    }
+
+    .steps .future {
+        color: #777;
+        background: #efefef;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 950px !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .steps > li {
+        float: left;
+    }
+
+    .steps .past {
+        color: #666;
+        background: #ececec;
+    }
+
+    .steps .present {
+        color: #000;
+        background: #AAAAAA;
+    }
+
+    .steps .future {
+        color: #777;
+        background: #efefef;
+    }
+
+    .steps li > span:after,
+    .steps li > span:before {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid transparent;
+        border-left-color: #f0f0f0;
+        border-width: 30px;
+    }
+
+    .steps li > span:after {
+        top: -5px;
+        z-index: 1;
+        border-left-color: white;
+        border-width: 34px;
+    }
+
+    .steps li > span:before {
+        z-index: 2;
+    }
+
+    .steps li.past + li > span:before {
+        border-left-color: #ececec;
+    }
+
+    .steps li.present + li > span:before {
+        border-left-color: #AAAAAA;
+    }
+
+    .steps li.future + li > span:before {
+        border-left-color: #efefef;
+    }
+
+    .steps li:first-child > span:after,
+    .steps li:first-child > span:before {
+        display: none;
+    }
+
+    /* Arrows at start and end */
+    .steps li:first-child i,
+    .steps li:last-child i {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: solid transparent;
+        border-left-color: white;
+        border-width: 30px;
+    }
+
+    .steps li:last-child i {
+        left: auto;
+        right: -30px;
+        border-left-color: transparent;
+        border-top-color: white;
+        border-bottom-color: white;
+    }
+}
