@@ -4,7 +4,7 @@ SiteLink's self-storage software helps small and large self-storage operators ma
 
 ## Introduction
 
-This code base is written in PHP and used CodeIgniter Web Framework 3 but if you can get the idea, you can implement this into any framework even into any language. You can read the documentation at http://www.codeigniter.com/user_guide/
+This code base is written in PHP and use CodeIgniter Web Framework 3 but if you can get the idea, you can implement this into any framework even into any language. You can read the documentation at http://www.codeigniter.com/user_guide/
 
 
 ## The Plot
@@ -35,10 +35,10 @@ But their support team is just amazing… They always be there to help you at an
 
 > To access a training video on how to create the API User Account click the link below and go to Corporate Control -> API Users and Rights. http://www.sitelink.com/support/training
   
-### Server Requirements
+## Server Requirements
 
 * Port 443 open for HTTPS communication.
 * SoapClient is required.
 
 
-### The Steps!
+## The Steps!
