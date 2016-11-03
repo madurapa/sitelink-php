@@ -4,15 +4,15 @@ SiteLink's self-storage software helps small and large self-storage operators ma
 
 ## Introduction
 
-This code base is written in PHP and use CodeIgniter Web Framework 3 but if you can get the idea, you can implement this into any framework even into any language. You can read the documentation at http://www.codeigniter.com/user_guide/
+This code base is written in PHP and use CodeIgniter Web Framework 3 but if you can get the idea, you can implement this into any framework even into any language. CodeIgniter documentation can be found at http://www.codeigniter.com/user_guide/
 
 
 ## The Plot
 
 When I got a project from a client to integrate SiteLink API to their site I was searching for some reference to get some help but I ended up with nothing. I only had their API doc but with the API doc you can do almost nothing. I think they should provide more details. I’m going to list down what are the cons with their documentation.
-* There is no explanation about which steps you have to fallow (which method you have to call in first place and which one next and so on…)
+* There is no explanation about which steps you have to fallow (which method you have to call in the first place and which one next and so on…)
 * Some method’s parameter names are different than in the API doc.
-* Lack of code samples with different languages.
+* Lack of code samples for different languages.
 
 But their support team is just amazing… They always be there to help you at anytime. This code base is here just because of their help. You can reach them at apisupport@sitelink.com
  
@@ -39,6 +39,15 @@ But their support team is just amazing… They always be there to help you at an
 
 * Port 443 open for HTTPS communication.
 * SoapClient is required.
+* Apache mod_rewrite extension must be enabled.
 
 
 ## The Steps!
+
+This is the most important part of this code base. In this section you are going to understand which steps you need to fallow to be able to connect to Sitelink API then get and send the relevant data for the operation.
+
+1. [Before you start](https://github.com/madurapa/sitelink-php/wiki/Before-you-start)
+2. [Get list of Storage Locations](https://github.com/madurapa/sitelink-php/wiki/Get-list-of-Storage-Locations)
+3. [Get Site Information by Location Code](https://github.com/madurapa/sitelink-php/wiki/Get-list-of-Units-Information-by-Location-Code)
+4. [Get list of Units Information by Location Code](https://github.com/madurapa/sitelink-php/wiki/Get-Site-Information-by-Location-Code)
+5. [Get Unit Information by Unit ID](https://github.com/madurapa/sitelink-php/wiki/Get-Unit-Information-by-Unit-ID)
