@@ -9,7 +9,7 @@ This code base is written in PHP and use CodeIgniter Web Framework 3 but if you 
 
 ## The Plot
 
-When I got a project from a client to integrate SiteLink API to their site I was searching for some reference to get some help but I ended up with nothing. I only had their API doc but with the API doc you can do almost nothing. I think they should provide more details. I’m going to list down what are the cons with their documentation.
+When I try integrate SiteLink API to a site I was searching for some reference to get some help but have I ended up with nothing. I only had their API doc but with the API doc you can do almost nothing. I think they should provide more details. I’m going to list down what are the cons with their documentation.
 * There is no explanation about which steps you have to fallow (which method you have to call in the first place and which one next and so on…)
 * Some method’s parameter names are different than in the API doc.
 * Lack of code samples for different languages.
