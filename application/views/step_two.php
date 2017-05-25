@@ -1,5 +1,3 @@
-<?php $this->load->view('inc/estimator'); ?>
-
 <?php $this->load->view('inc/steps'); ?>
 
 <div class="row">
