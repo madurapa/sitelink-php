@@ -2,6 +2,11 @@
 
 SiteLink's self-storage software helps small and large self-storage operators manage their self-storage tenants and grow profits while reducing costs.
 
+##### PHP 7.+ VERSIONS
+
+> This code base was written more than 4 years ago. That was the PHP 5 era, since then they have abandoned old functions that were used when it upgraded to PHP 7 so this code base will not work smoothly on PHP 7. Unfortunately I couldn't do the maintenance on time due to lack of finding spare time. If you want to upgrade or added new features please contact me via madu.rapa@gmail.com - _September 2020_
+
+
 ## Introduction
 
 This code base is written in PHP and use CodeIgniter Web Framework 3 but if you can get the idea, you can implement this into any framework even into any language. CodeIgniter documentation can be found at http://www.codeigniter.com/user_guide/
