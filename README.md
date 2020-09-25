@@ -2,9 +2,9 @@
 
 SiteLink's self-storage software helps small and large self-storage operators manage their self-storage tenants and grow profits while reducing costs.
 
-##### PHP 7.+ VERSIONS
+##### PHP 7.* VERSIONS
 
-> This code base was written many years ago. That was the PHP 5 era, since then they have abandoned some of the old functions that were used when it upgraded to PHP 7 so this code base will not work smoothly on PHP 7. Unfortunately I couldn't do the maintenance on time due to lack of finding spare time. If you want to upgrade or added new features please contact me via madu.rapa@gmail.com - _September 2020_
+> This codebase was written many years ago. That was the PHP 5 era, since then they have abandoned some of the old functions that were used when it upgraded to PHP 7 so this codebase will not work smoothly on PHP 7. Unfortunately, I couldn't do the maintenance on time due to a lack of finding spare time. If you want to upgrade or add new features please contact me via madu.rapa@gmail.com - _September 2020_
 
 
 ## Introduction
