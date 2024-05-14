@@ -18,7 +18,7 @@
 </div>
 
 <!-- jQuery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" type="text/javascript"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="<?= base_url() ?>js/bootstrap.min.js"></script>
